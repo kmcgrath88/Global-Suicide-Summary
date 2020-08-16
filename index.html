@@ -2,17 +2,21 @@
 <html lang="en-us">
 
 <head>
-
   <meta charset="UTF-8">
   <title>Global Suicide</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css"> <!--set image inside css file; give image some sort of id or class to reference it by-->
-  
-  
+</head>
+
+<body>  
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Global Suicide</a>
+    <a class="navbar-brand" href="index.html">Global Suicide</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Plots
@@ -20,7 +24,6 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#">Action</a>
             <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
         </li>
@@ -30,53 +33,56 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Data</a>
         </li>
-        
-      </ul>
-      
-    </div>
-  </nav>
-</head>
-  <!-- Bring in our bootstrap stylesheet -->
-  <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
-  <!--<link rel="stylesheet" href="style.css"> ----------- Bootswatch???-->
+      </div>
+    </nav>
 
-  <body>
-    <!--Landing Page-->
-         <!--  -->
+    
+    <div class="container">
+      <div class = 'row box'>
 
-        <!--<div class="container"> -->
-    <div class = 'row'> 
+      <!--Summary: Global Suicide-->
       <div class="col-md-8">
-        <h1>Summary: Global Suicide</h1>
-      </div>
-      <div class="col-md-4">
-        <h1>Visualizations</h1>
+        <div class="col-md-12">
+          <h1>Summary: Global Suicide</h1>
+          <hr>
+            <div class="thumbnail">
+              <img class="img-thumbnail" src="visualizations/1990to2015LineChart.png" width="50%" class="img-fluid" alt="Responsive image">
+            </div>
+          
+            <p>My team chose to observe global suicide trends from 1985-2016. First we pulled data from Kaggle.com, cleaned our dataset, and narrowed
+            down our scope of years.</p>
+            <p>We used Python with Pandas and Matplotlib libraries to observe trends across several variables including countries, continents, age, gender,  
+              and trends in the United States. My contributions included cleaning data, identifying relationships of interest, 
+              creating meaningful graphs to observe trends, conducting statistical calculations, as well as a thorough analysis of our findings.</p>
+          
       </div>
     </div>
-      
-    <div class = 'row'>
-      <div class = 'col-md-4'>
-        <img src="visualizations/1990to2015LineChart.png" class="img-fluid" alt="Responsive image"> <!--width="200" height="200">-->
-      </div>
-      <div class = 'col-md-4'>
-        <p>My team analyzed global suicide trends from 1990-2015.</p>
-      </div>
-      <div class = 'col-md-2'>
-        <a href = "WebVisualizations/perCont.html" target = '_blank' class = "thumbnail"> 
-          <img src= 'visualizations/1990to2015Continents.png' class="img-fluid" alt="Responsive image">
-        </a>
-      </div>
-      <div class = 'col-md-2'>
-        <a href = "WebVisualizations/perCont.html" target = '_blank' class = "thumbnail"> 
-          <img src= 'visualizations/1990to2015Continents.png' class="img-fluid" alt="Responsive image">
-        </a>
-      </div>
-    </div>          
-          
-           
 
-            
-              
+      <!--Visualization-->
+      <div class='col-md-4'>
+        <div class="col-md-12">
+          <h2>Visualizations</h2>
+          <hr>      
+          <div class="row">
+          <div class = 'col-3 col-md-6'>
+            <a href = "WebVisualizations/perCont.html" target = '_blank' > <img src= 'visualizations/1990to2015LineChart.png' class="img-fluid" width="100%" alt="Responsive image">
+            </a>
+          </div>
+          <div class = 'col-3 col-md-6'>
+            <a href = "WebVisualizations/perCont.html" target = '_blank'><img src= 'visualizations/1990to2015Continents.png' class="img-fluid" width="100%" alt="Responsive image">
+            </a>
+          </div>
+          <div class = 'col-3 col-md-6'>
+            <a href = "WebVisualizations/perCont.html" target = '_blank'> <img src= 'visualizations/1990to2015Continents.png' class="img-fluid" width="100%" alt="Responsive image">
+            </a>
+          </div>
+          <div class = 'col-3 col-md-6'>
+            <a href = "WebVisualizations/perCont.html" target = '_blank' ><img src= 'visualizations/1990to2015Continents.png' class="img-fluid" width="100%" alt="Responsive image"> 
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   
     
 
