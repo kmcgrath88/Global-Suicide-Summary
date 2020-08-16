@@ -5,65 +5,79 @@
 
   <meta charset="UTF-8">
   <title>Global Suicide</title>
-  <title>Bootstrap Components</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css"> <!--set image inside css file; give image some sort of id or class to reference it by-->
+  
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Global Suicide</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Comparison <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Data</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+  </nav>
 </head>
   <!-- Bring in our bootstrap stylesheet -->
   <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
   <!--<link rel="stylesheet" href="style.css"> ----------- Bootswatch???-->
 
   <body>
-    <div class="container">
-      <nav class="navbar">
-          <h3>Global Suicide</h3>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
-        <select id="nav-select">
-          <option value="home">Home</option>
-          <option value="about">About</option>
-          <option value="portfolio">Portfolio</option>
-          <option value="contact">Contact</option>
-        </select>
-        <div class="clearfix"></div>
-      </nav>
+    <!--Landing Page-->
+         <!--  -->
 
-      <!-- First (and only column) -->
-      <div class="container">
+        <!--<div class="container"> -->
+    <div class = 'row'> 
+      <div class="col-md-8">
+        <h1>Summary: Global Suicide</h1>
+      </div>
+      <div class="col-md-4">
+        <h1>Visualizations</h1>
+      </div>
+    </div>
+      
+    <div class = 'row'>
+      <div class = 'col-md-4'>
+        <img src="visualizations/1990to2015LineChart.png" class="img-fluid" alt="Responsive image"> <!--width="200" height="200">-->
+      </div>
+      <div class = 'col-md-4'>
+        <p>My team analyzed global suicide trends from 1990-2015.</p>
+      </div>
+      <div class = 'col-md-2'>
+        <a href = "WebVisualizations/perCont.html" target = '_blank' class = "thumbnail"> 
+          <img src= 'visualizations/1990to2015Continents.png' class="img-fluid" alt="Responsive image">
+        </a>
+      </div>
+      <div class = 'col-md-2'>
+        <a href = "WebVisualizations/perCont.html" target = '_blank' class = "thumbnail"> 
+          <img src= 'visualizations/1990to2015Continents.png' class="img-fluid" alt="Responsive image">
+        </a>
+      </div>
+    </div>          
+          
+           
 
-        <!-- First Row -->
-        <div class="row">
-    
-          <!-- First (and only column) -->
-          <div class="col-md-12">
-            <h1>Summary: Global Suicide</h1>
-          </div>
-        </div>
-        <div class = "col-md-6" align="center">
-          <div class="upload">
-          <a href = "WebVisualizations/perCont.html" target = '_blank' class = "thumbnail"> <!--is this right-->
-            <img src="visualizations/1990to2015Continents.png" class="img-fluid" alt="Responsive image" width="200" height="200">
-          </a>
-          </div>
-          </div>
-        <!--  -->
-        <div class="row">
-    
-          <!--  -->
-          <div class="col-md-6">
-            <img src= 'visualizations/1990to2015LineChart.png' class="img-fluid" alt="Responsive image">
-          </div>
-          <div class="modal-body" id="modal-content">
-            <div class = "row">
-            <div class="col-sm-12"></div>          
-    
-          <!-- Second of two columns -->
-          <div class="col-md-6">
-            <h4>My team analyzed global suicide trends from 1990-2015.</h4>
-          </div>
-        </div>
+            
+              
+  
     
 
 
