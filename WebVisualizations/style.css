@@ -1,0 +1,58 @@
+body{
+  background-color: rgb(20, 20, 85);
+}
+
+
+p{
+  padding: 10px;
+}
+
+/* div { */
+  /* column-gap: 20px; */
+/* } */
+
+table{
+  background-color: white;
+  border: 1;
+}
+
+.box {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: white;
+
+}
+.pad{
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.box2{
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  background-color: white;
+}
+/* .bcol{
+  background-color: white;
+}
+     */
+  
+
+
+
+
+  
+  /*.margin-top-80 {
+    margin-top: 80px;
+  }
+  
+
+    height: 400px;
+    padding: 20px; (was in box) */
