@@ -5,11 +5,17 @@ h1{
   color: rgb(13, 147, 165);
   font-weight: 500;
 }
-
 h2{
   font-family: Georgia, serif;
   padding: 5px;
   color: rgb(13, 147, 165);
+  /* overflow: hidden; */
+}
+
+/*Padding for pic on summary page to align font */
+.pad{
+  margin-right: 20px;
+  margin-left: 10px;
 }
 
 /*Align headers and padding for comparisons.html page*/
@@ -37,10 +43,18 @@ p{
 tr{
   text-align: center;
 }
-
 table{
   background-color: white;
   border: 1;
+}
+/*Formatting for data html*/
+.box2{
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  background-color: white;
 }
 
 /*Formatting for containers, divs, rows */
@@ -54,26 +68,12 @@ table{
     background-color: white;
 }
 
-/*Padding for pic on summary page to align font */
-.pad{
-  margin-right: 20px;
-  margin-left: 10px;
-}
-
-/*Formatting for ...*/
-.box2{
-  padding-right: 30px;
-  padding-left: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-top: 20px;
-  background-color: white;
-}
-
+/*Overriding width */
 .col-md-12{
   width: unset;
 }
 
+/*No border for images */
 .nobor{
   margin: 0;
   padding: 0;
@@ -89,3 +89,19 @@ table{
   border-color: rgb(13, 147, 165);
 } 
 
+/* Media query to adjust h2 font size as screen decreases in size */
+@media (max-width: 1000px) {
+    h2{
+    font-size: 1.8em;
+  }
+}
+
+/* Media query to adjust body background color and padding for bottom of screen as screen decreases in size */
+@media (max-width: 768px) {
+body{
+    background-color: white;
+  }
+.pad3{
+  padding-bottom: 50px;
+}
+}
