@@ -89,19 +89,35 @@ table{
   border-color: rgb(13, 147, 165);
 } 
 
+/*Comparison page borders????? maybe take out???????????  */
+.compbor{
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: rgba(158, 158, 158, 0.979);
+}
+/*Comparison page for Per Age Group border */
+.pad4 {
+  padding-bottom: 13.25%;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: rgba(158, 158, 158, 0.979);
+}
+
+
 /* Media query to adjust h2 font size as screen decreases in size */
 @media (max-width: 1000px) {
-    h2{
+  h2{
     font-size: 1.8em;
   }
 }
 
 /* Media query to adjust body background color and padding for bottom of screen as screen decreases in size */
 @media (max-width: 768px) {
-body{
+  body{
     background-color: white;
   }
-.pad3{
-  padding-bottom: 50px;
+  .pad3{
+    padding-bottom: 50px;
+  }
 }
-}
+
