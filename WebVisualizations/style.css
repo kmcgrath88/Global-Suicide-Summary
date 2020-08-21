@@ -1,3 +1,8 @@
+/* Navbar color */
+.bg-light{
+  background-color: rgb(241, 241, 245) !important;
+}
+
 /*Header font styles */
 h1{
   font-family: Georgia, serif;
@@ -116,8 +121,13 @@ table{
   }
 }
 
-/* Media query to adjust body background color and padding for bottom of screen as screen decreases in size */
-@media (max-width: 768px) {
+/* Media query to adjust navbar color, body background color, and padding for bottom of screen as screen decreases to small size */
+@media (max-width: 576px) {
+  
+  .bg-light {
+  background-color: rgba(197, 226, 228, 0.692)!important;
+  }
+
   body{
     background-color: white;
   }
