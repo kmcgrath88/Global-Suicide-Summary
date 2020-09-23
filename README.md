@@ -1,6 +1,6 @@
 # Global Suicide Project Summary
 
-Thanks for checking out my project's repo! You can check out the live website [HERE](https://kmcgrath88.github.io/Global-Suicide-Summary/) 
+Thanks for checking out my project's repo! You can check out the live website [HERE](https://kmcgrath88.github.io/Global-Suicide-Summary/). 
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
