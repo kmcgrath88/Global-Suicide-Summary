@@ -1,10 +1,28 @@
-## Web-Design-Challenge
+# Global Suicide Project Summary
 
-Check out my live website! I completed this assignment using data and graphs from my first team project on Global Suicide Trends From 1985-2016 (data from Kaggle.com).<br>
-https://kmcgrath88.github.io/Web-Design-Challenge/ 
-<br>
+Thanks for checking out my project's repo! You can check out the live website [HERE](https://kmcgrath88.github.io/Global-Suicide-Summary/) 
 
-### Assignment Instructions:
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Project Instructions](#project-instructions)
+
+<!--About the Project-->
+## About the Project
+
+I completed this assignment using data and graphs from my first team project on Global Suicide Trends From 1985-2016 (data from Kaggle.com). You can check out my team's project [HERE](https://github.com/stefanee88/Global-Suicide-Project).
+
+<!--Built With-->
+### Built With
+This project was built using the following frameworks:<br>
+* HTML
+* CSS
+* Python
+
+## Project Instructions:
+
 For this assignment we'll be creating a visualization dashboard website using visualizations we've created in a past assignment. 
 In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.<br>
 
